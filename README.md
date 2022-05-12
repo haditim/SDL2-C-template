@@ -23,7 +23,6 @@ In this case, after compilation (`make`), you'll get:
 .
 ├── bin
 │   └── main
-├── dirname
 ├── Makefile
 ├── obj
 │   ├── canvas

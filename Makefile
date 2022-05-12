@@ -22,14 +22,14 @@ msg:
 	@echo 'Source files: ${SRCS}'
 
 ${BIN}: ${OBJS}
-	mkdir -p dirname $(shell dirname $@)
+	mkdir -p $(shell dirname $@)
 	${CC} ${CFLAGS} -O2 -o $@ ${OBJS} ${SDL2FLAGS}
 
 debug: ${SRC}
 	${CC} ${CFLAGS} -O1 -g -o ${BIN} $< ${SDL2FLAGS}
 
 ${OBJ_DIR}/%.o: ${SRC_DIR}/%.c
-	mkdir -p dirname $(shell dirname $@)
+	mkdir -p $(shell dirname $@)
 	${CC} ${CFLAGS} -c $< -o $@
 
 

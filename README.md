@@ -1,3 +1,5 @@
+NOTE: this repo is now hosted mainly on [Codeberg](https://codeberg.org/haditim/SDL2-C-template) and [GitHub](https://github.com/haditim/SDL2-C-template) serves as its mirror.
+
 # C and SDL2 project starter template
 I use this template to create C projects.
 
